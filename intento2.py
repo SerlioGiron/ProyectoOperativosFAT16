@@ -10,13 +10,13 @@ SECTOR_SIZE = 512
 raiz = "D:/"
 
 def cat(file_path):
-    print("entro a cat")
+    # print("entro a cat")
     with open(file_path, 'r') as file:
         content = file.read()
     print(content)
     
 def mkdir(dir_path):
-    print("entro a mkdir")
+    # print("entro a mkdir")
     try:
         os.makedirs(dir_path)
         print(f"Directory {dir_path} created successfully.")
@@ -26,8 +26,8 @@ def mkdir(dir_path):
         print(f"An error occurred: {e}")
     
 def create_file(file_path):
-    print("entro a create_file")
-    print(file_path)
+    # print("entro a create_file")
+    # print(file_path)
     contenido = input()
     # Crear el archivo y escribir contenido en él
     with open(file_path, 'w') as file:
