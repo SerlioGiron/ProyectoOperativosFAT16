@@ -6,6 +6,18 @@ DISK_IMAGE = "ruta/a/tu/imagen.img"
 # Tamaño de un sector en bytes
 SECTOR_SIZE = 512
 
+def cat():
+    print("entro a cat")
+    
+def mkdir():
+    print("entro a mkdir")
+    
+def create_file():
+    print("entro a create_file")
+    
+def change_dir():
+    print("entro a change_dir")
+
 def ls_l():
     print("entro a ls_l")
 
