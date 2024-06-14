@@ -32,7 +32,6 @@ def create_file(file_path):
     # Crear el archivo y escribir contenido en él
     with open(file_path, 'w') as file:
         file.write(contenido)
-
     # Verificar que el archivo se creó correctamente
     if os.path.exists(file_path):
         print(f"El archivo {file_path} se ha creado correctamente.")
