@@ -2,10 +2,10 @@ import os
 import time
 
 # Ruta de la imagen de disco FAT16
-DISK_IMAGE = "ruta/a/tu/imagen.img"
+# DISK_IMAGE = "ruta/a/tu/imagen.img"
 
 # Tamaño de un sector en bytes
-SECTOR_SIZE = 512
+# SECTOR_SIZE = 512
 
 raiz = "D:/"
 
